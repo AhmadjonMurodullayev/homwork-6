@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "heebo";
+    src: url(../Heebo/Heebo-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+.container {
+    width: 1152px;
+    height: 2090px;
+    /* border: 1px solid; */
+    margin: auto;
+    background-color: white;
+
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    padding: 0px 60px;
+    
+}
+
+header ul a {
+    text-decoration: none;
+ 
+
+
+}
+
+header li {
+    list-style: none;
+    font-family: "heebo";
+
+}
+
+.logs {
+    width: 1152px;
+    height: 550px;
+    /* background-color: blue; */
+    display: flex;
+    gap: 140px;
+    /* border: 1px solid; */
+}
+
+.text {
+    width: 500px;
+    height: 500px;
+    padding: 148px 100px;
+    display: flex;
+    /* background-color: #FF6464; */
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    font-family: "heebo";
+    width: 440px;
+    font-size: 44px;
+
+}
+
+.text p {
+    width: 450px;
+    font-size: 16px;
+
+}
+
+button {
+    padding: 10px 0px;
+    width: 200px;
+    background-color: #FF6464;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.text-item {
+    width: 100%;
+    height: 60px;
+    background-color:
+        #EDF7FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-item p:nth-child(1) {
+    padding: 0px 110px;
+    font-size: 22px;
+}
+
+.text-item p:nth-child(2) {
+    padding: 0px 110px;
+    font-size: 16px;
+    color: #00A8CC;
+}
+
+.Recent-posts {
+    width: 1152px;
+    height: 396px;
+    background-color: #EDF7FA;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.box {
+    width: 418px;
+    height: 295px;
+    /* border: 1px solid; */
+    background-color: white;
+}
+
+#h2 {
+    width: 334px;
+    height: 85px;
+    font-family: "heebo";
+    padding: 10px 20px;
+}
+
+.title {
+    display: flex;
+    gap: 30px;
+    padding: 10px 20px;
+}
+
+#d22 {
+    font-size: 18px;
+}
+
+#p12 {
+    width: 378px;
+    height: 117px;
+    font-size: 18px;
+    padding: 15px 20px;
+}
+.Featured{
+width: 100%;
+height: 60px;
+display: flex;
+padding: 20px 110px;
+font-size: 22px;
+
+
+}
+.Featured-works{
+    width: 1152px;
+    height: 800px;
+    /* background-color: #EDF7FA; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.futters{
+    width: 900px;
+    height: 178px;
+    /* border: 1px solid; */
+    display: flex;
+    /* align-items: start; */
+    /* padding-bottom: 60px; */
+    /* border-bottom: 3px solid red; */
+    gap: 10px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+h3{
+    font-family: "heebo";
+    padding: 0px 20px;
+}
+.imgs{
+    width: 246px;
+    height: 180px;
+    display: flex;
+    align-items: start;
+}
+#futters-p1{
+    width: 580px;
+    height: 93px;
+    font-size: 17px;
+    padding: 15px 20px;
+}
+.son{
+    background-color: rgb(50, 48, 48);
+    border-radius: 50px;
+    width: 45px;
+    height: 20px;
+    padding: 2.3px 3.5px;
+  
+}
+#p34{
+    color: white;
+}
+.pagges{
+    display: flex;
+    padding: 20px 20px;
+    gap: 20px;
+}
+.footers{
+    width: 1152px;
+    height: 250px;
+    /* background-color: #FF6464; */
+}
+footer{
+    /* width: 1152px; */
+    height: 182px;
+    /* border: 2px solid ; */
+    /* display: block */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    
+
+}
+i{
+    font-size: 25px;
+}
+
+.iconki{
+    width: 100%;
+    margin: 50px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    gap: 20px;
+}
+.paragrf{
+    width: 100%;
+    /* margin: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
